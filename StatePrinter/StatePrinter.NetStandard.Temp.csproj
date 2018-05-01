@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>State Printer compiled to Netstandard 2.0 Temporarily for Nethereum, Note: This is a temporary package until the netstandard 2.0 is available, all credit to Kasper B. Graversen. An open source utility to turn object graphs into strings. Automatic unit testing and ToString() methods. Apache v2.0 License</Description>
+    <Copyright>Kasper B. Graversen, Inc.</Copyright>
+    <AssemblyTitle>StatePrinter.NetStandard.Temp</AssemblyTitle>
+    <Version>3.0.311.0</Version>
+    <Authors>Kasper B. Graversen</Authors>
+    <PackageIconUrl>https://raw.githubusercontent.com/kbilsted/StatePrinter/master/StatePrinter/gfx/stateprinter.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/kbilsted/StatePrinter</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/kbilsted/StatePrinter/master/LICENSE.md</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/kbilsted/StatePrinter</RepositoryUrl>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+    <Compile Remove="Properties\Resources.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Properties\Resources.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
